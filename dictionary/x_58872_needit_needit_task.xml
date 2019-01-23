@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="NeedIt Task" max_length="40" name="x_58872_needit_needit_task" type="collection"/>
+    <element audit="true" extends="task" label="NeedIt Task" max_length="40" name="x_58872_needit_needit_task" sizeclass="3" type="collection">
+        <element label="assigned_dummy" max_length="32" name="test" reference="sys_user" type="reference"/>
+        <element label="test1" max_length="32" name="test1" reference="cmdb_ci_apic_host" type="reference"/>
+    </element>
 </database>
