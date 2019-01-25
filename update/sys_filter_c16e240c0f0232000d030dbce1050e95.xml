@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sys_filter">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_filter">
     <sys_filter action="INSERT_OR_UPDATE">
         <filter table="sys_user">nameSTARTSWITHs^nameISNOTEMPTY^EQ<item endquery="false" field="name" goto="false" newquery="false" operator="STARTSWITH" or="false" value="s"/>
             <item endquery="false" field="name" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
@@ -25,6 +24,6 @@
         <sys_updated_on>2017-04-05 19:30:57</sys_updated_on>
         <table>sys_user</table>
         <title>mobile</title>
-        <user display_value="Beth Anglin">46d44a23a9fe19810012d100cca80666</user>
+        <user display_value="Beth Anglin">c9521b51dbc327007435ff9dbf9619d0</user>
     </sys_filter>
 </record_update>
